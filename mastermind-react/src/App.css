@@ -27,6 +27,15 @@ body {
   position: relative;
 }
 
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
 .screen {
     text-align: center;
 }

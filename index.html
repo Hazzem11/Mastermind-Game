@@ -1,59 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>Mastermind Game</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=1">
-</head>
-<body>
-    <div class="container">
-        <div id="welcome-screen" class="screen">
-            <h1>Mastermind Game</h1>
-            <div class="difficulty-group">
-                <label><input type="radio" name="difficulty" value="easy" checked> Easy</label>
-                <label><input type="radio" name="difficulty" value="medium"> Medium</label>
-                <label><input type="radio" name="difficulty" value="hard"> Hard</label>
-            </div>
-            <div class="input-group">
-                <input type="text" id="player-name" placeholder="Enter your name">
-                <button id="start-game">Start Game</button>
-            </div>
-        </div>
-  
-        <div id="game-screen" class="screen hidden">
-            <div class="game-header">
-                <h2>Welcome, <span id="player-name-display"></span>!</h2>
-                <div class="game-info">
-                    <p>Guesses: <span id="guess-count">0</span>/10</p>
-                </div>
-            </div>
-
-            <div class="game-board">
-                <div class="guess-history" id="guess-history"></div>
-                
-                <div class="current-guess">
-                    <div class="color-picker"></div>
-                    <div class="guess-slots"> </div>
-                    <button id="submit-guess">Submit Guess</button>
-                </div>
-            </div>
-
-            <div id="message-box"></div>
-        </div>
-
-        <div id="gameover-screen" class="screen hidden">
-            <h2 id="gameover-title"></h2>
-            <p id="gameover-message"></p>
-            <button id="play-again">Play Again</button>
-        </div>
-    </div>
-    <script src="game.js?v=1"></script>
-</body>
-</html> 
+    <script type="module" crossorigin src="./assets/index-DCD1ghSy.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B8r8nFOy.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
